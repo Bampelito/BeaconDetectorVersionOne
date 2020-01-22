@@ -13,6 +13,9 @@
 		490D7EB523D8DBED00F4928A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490D7EB423D8DBED00F4928A /* Assets.xcassets */; };
 		490D7EB823D8DBED00F4928A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490D7EB723D8DBED00F4928A /* Preview Assets.xcassets */; };
 		490D7EBB23D8DBED00F4928A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490D7EB923D8DBED00F4928A /* LaunchScreen.storyboard */; };
+		490D7EC323D8DC9700F4928A /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490D7EC223D8DC9700F4928A /* LocationView.swift */; };
+		490D7EC523D8E28D00F4928A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490D7EC423D8E28D00F4928A /* MapView.swift */; };
+		49A83A1E23D8EB7300CCFC8D /* BeaconDetectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A83A1D23D8EB7300CCFC8D /* BeaconDetectorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		490D7EB723D8DBED00F4928A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		490D7EBA23D8DBED00F4928A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		490D7EBC23D8DBED00F4928A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490D7EC223D8DC9700F4928A /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		490D7EC423D8E28D00F4928A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		49A83A1D23D8EB7300CCFC8D /* BeaconDetectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconDetectorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				490D7EAE23D8DBEC00F4928A /* AppDelegate.swift */,
 				490D7EB023D8DBEC00F4928A /* SceneDelegate.swift */,
 				490D7EB223D8DBEC00F4928A /* ContentView.swift */,
+				49A83A1D23D8EB7300CCFC8D /* BeaconDetectorView.swift */,
+				490D7EC223D8DC9700F4928A /* LocationView.swift */,
+				490D7EC423D8E28D00F4928A /* MapView.swift */,
 				490D7EB423D8DBED00F4928A /* Assets.xcassets */,
 				490D7EB923D8DBED00F4928A /* LaunchScreen.storyboard */,
 				490D7EBC23D8DBED00F4928A /* Info.plist */,
@@ -147,6 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				490D7EAF23D8DBEC00F4928A /* AppDelegate.swift in Sources */,
+				490D7EC323D8DC9700F4928A /* LocationView.swift in Sources */,
+				49A83A1E23D8EB7300CCFC8D /* BeaconDetectorView.swift in Sources */,
+				490D7EC523D8E28D00F4928A /* MapView.swift in Sources */,
 				490D7EB123D8DBEC00F4928A /* SceneDelegate.swift in Sources */,
 				490D7EB323D8DBEC00F4928A /* ContentView.swift in Sources */,
 			);
