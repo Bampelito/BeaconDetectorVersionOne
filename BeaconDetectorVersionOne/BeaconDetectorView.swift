@@ -79,7 +79,7 @@ class BeaconDetector: NSObject, ObservableObject, CLLocationManagerDelegate {
 struct BigText: ViewModifier {
     func body(content: Content) -> some View {
         content
-        .font(Font.system(size: 72, design: .rounded))
+        .font(Font.system(size: 40))
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
     }
 }
@@ -106,7 +106,7 @@ struct BeaconDetectorView: View {
         } else {
            return Text("UNKNOWN")
             .modifier(BigText())
-                .background(Color.gray)
+                .background(Color.white)
                 .edgesIgnoringSafeArea(.all)
         }
     }

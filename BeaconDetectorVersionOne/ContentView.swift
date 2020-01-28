@@ -10,12 +10,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-    }
-}
+        VStack {
+            MapView()
+                .edgesIgnoringSafeArea(.top)
+                .frame(height: 300)
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+            LocationView()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            
+            BeaconDetectorView()
+
+            VStack(alignment: .leading) {
+                Text("Fakulta Prírodnych Vied")
+                    .font(.title)
+                HStack(alignment: .top) {
+                    Text("Katedra Informatiky")
+                        .font(.subheadline)
+                    Spacer()
+                    Text("Banská Bystrica")
+                        .font(.subheadline)
+                }
+            }
+            .padding()
+
+            Spacer()
+            
+        }
     }
 }
