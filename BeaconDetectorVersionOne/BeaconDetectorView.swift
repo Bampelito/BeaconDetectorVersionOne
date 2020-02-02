@@ -54,7 +54,7 @@ class BeaconDetector: NSObject, ObservableObject, CLLocationManagerDelegate {
     func startScanning() {
         //let uuid = UUID(uuidString: "B5B182C7-EAB1-4988-AA99-B5C1517008D9")!
         let uuid = UUID(uuidString: "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0")!
-        let constraint = CLBeaconIdentityConstraint(uuid: uuid, major: 100, minor: 101)
+        let constraint = CLBeaconIdentityConstraint(uuid: uuid, major: 0, minor: 0)
         let beaconRegion = CLBeaconRegion(beaconIdentityConstraint: constraint, identifier: "MyBeacon1")
         
         locationManager?.startMonitoring(for: beaconRegion)
