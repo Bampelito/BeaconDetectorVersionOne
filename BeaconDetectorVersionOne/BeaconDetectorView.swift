@@ -106,7 +106,7 @@ struct BeaconDetectorView: View {
         } else {
            return Text("UNKNOWN")
             .modifier(BigText())
-                .background(Color.white)
+                .background(Color.gray)
                 .edgesIgnoringSafeArea(.all)
         }
     }
